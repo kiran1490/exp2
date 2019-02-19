@@ -1,0 +1,12 @@
+even1=0
+odd1=0
+while(1):
+    n=int(input("enter the number"))
+    if (n==-1):
+        break
+    elif(n%2==0):
+        even1=even1+n
+    else:
+        odd1=odd1+n
+print("the sum of even numbers entered",even1)
+print("the sum of odd numbers entered",odd1)
